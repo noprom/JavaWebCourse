@@ -12,5 +12,11 @@
   </head>
   <body>
   <h1>Page内置对象:<%=page.toString()%></h1>
+
+  <%=pageContext.getAttribute("city")%>
+  <%
+   // pageContext.forward("http://www.baidu.com");
+    pageContext.include("include.jsp");
+  %>
   </body>
 </html>
