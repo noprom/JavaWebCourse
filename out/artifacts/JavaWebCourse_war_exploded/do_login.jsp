@@ -13,7 +13,8 @@
   username = request.getParameter("username");
   password = request.getParameter("password");
 
-  if(username.equals("admin") && password.equals("admin")){
+  if(username.equals("admin") && password.equals("admin")){ // 登陆成功
+    session.setAttribute("username", username);
     request.getRequestDispatcher("login_success.jsp").forward(request, response);
   }else{
     response.sendRedirect("login_fail.jsp");

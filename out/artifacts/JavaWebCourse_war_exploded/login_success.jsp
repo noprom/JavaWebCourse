@@ -11,6 +11,12 @@
     <title></title>
   </head>
   <body>
-  <h1>登录成功</h1>
+  <%
+    String loginUser = session.getAttribute("username") == null? "" : session.getAttribute("username").toString();
+  %>
+  <h1>
+  <%=loginUser%>
+    登录成功</h1>
+
   </body>
 </html>
