@@ -25,6 +25,7 @@
   <%--<jsp:setProperty name="myUser" property="password" value="12345"/>--%>
 
   <%--4.通过request对象提交的参数--%>
+  <jsp:setProperty name="myUser" property="username"/>
   <jsp:setProperty name="myUser" property="password" param="pass"/>
 
   用户名:<%=myUser.getUsername()%>
