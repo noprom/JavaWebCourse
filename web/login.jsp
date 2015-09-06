@@ -13,7 +13,7 @@
   <body>
   <h1>登录</h1>
 
-  <form action="do_login2.jsp" method="post">
+  <form action="do_login2.jsp?pass=12345" method="post">
     <input type="text" name="username" placeholder="用户名"/>
     <input type="password" name="password" placeholder="密码"/>
     <button type="submit">登录</button>
