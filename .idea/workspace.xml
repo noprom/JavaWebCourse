@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd3b26b-95bf-406a-bffa-bbb3a5e24b7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/testscope.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/do_login2.jsp" afterPath="$PROJECT_DIR$/web/do_login2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/testscope.jsp" afterPath="$PROJECT_DIR$/web/testscope.jsp" />
     </list>
     <ignored path="JavaWebCourse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testscope.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testscope.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2962963">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state vertical-scroll-proportion="1.5888158">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="do_login2.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="do_login2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4531722">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state vertical-scroll-proportion="-6.888889">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/web/do_login.jsp" />
         <option value="$PROJECT_DIR$/src/com/jsp/app/User.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/testscope.jsp" />
         <option value="$PROJECT_DIR$/web/do_login2.jsp" />
+        <option value="$PROJECT_DIR$/web/testscope.jsp" />
       </list>
     </option>
   </component>
@@ -672,12 +671,12 @@
       <workItem from="1441542759683" duration="2161000" />
       <workItem from="1442359912023" duration="220000" />
       <workItem from="1445380645332" duration="99000" />
-      <workItem from="1445897183410" duration="932000" />
+      <workItem from="1445897183410" duration="1285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9699000" />
+    <option name="totallyTimeSpent" value="10052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -921,18 +920,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
+    <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2962963">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state vertical-scroll-proportion="-6.888889">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4531722">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state vertical-scroll-proportion="1.5888158">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>

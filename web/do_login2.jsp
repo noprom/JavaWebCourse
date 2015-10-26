@@ -11,7 +11,8 @@
     <title></title>
 </head>
 <body>
-  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>
+  <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>--%>
+  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="session"/>
   <h1>setProperty元素</h1>
   <%--1.根据表单自动匹配所有的属性--%>
   <%--<jsp:setProperty name="myUser" property="*"/>--%>
@@ -37,6 +38,7 @@
   密码：<jsp:getProperty name="myUser" property="password"/>
 
   <%--7.测试javabean作用领域的范围--%>
+  <br/>
   <a href="testscope.jsp">测试javabean作用领域的范围</a>
 </body>
 </html>
