@@ -13,7 +13,8 @@
 <body>
   <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>--%>
   <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="session"/>--%>
-  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>
+  <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>--%>
+  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="page"/>
   <h1>setProperty元素</h1>
   <%--1.根据表单自动匹配所有的属性--%>
   <%--<jsp:setProperty name="myUser" property="*"/>--%>

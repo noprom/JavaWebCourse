@@ -16,7 +16,9 @@
 
   <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>--%>
   <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="session"/>--%>
-  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>
+  <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>--%>
+  <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>--%>
+  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="page"/>
   用户名：<jsp:getProperty name="myUser" property="username"/>
   密码：<jsp:getProperty name="myUser" property="password"/>
 
@@ -28,7 +30,18 @@
   <%--用户名：<%=((User)session.getAttribute("myUser")).getUsername()%>--%>
   <%--密码：<%=((User)session.getAttribute("myUser")).getPassword()%>--%>
 
-  用户名：<%=((User)request.getAttribute("myUser")).getUsername()%>
-  密码：<%=((User)request.getAttribute("myUser")).getPassword()%>
+  <%--用户名：<%=((User)request.getAttribute("myUser")).getUsername()%>--%>
+  <%--密码：<%=((User)request.getAttribute("myUser")).getPassword()%>--%>
+
+  <%
+    String username = "";
+    String password = "";
+    if (pageContext.getAttribute("myUser")!=null) {
+      username = ((User)pageContext.getAttribute("myUser")).getUsername();
+      password = ((User)pageContext.getAttribute("myUser")).getPassword();
+    }
+  %>
+  用户名：<%=username%>
+  密码：<%=password%>
   </body>
 </html>

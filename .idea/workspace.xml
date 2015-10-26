@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testscope.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testscope.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.944445">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.70394737">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="do_login2.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="do_login2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.673716">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+            <state vertical-scroll-proportion="-6.9259257">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/web/do_login.jsp" />
         <option value="$PROJECT_DIR$/src/com/jsp/app/User.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/testscope.jsp" />
         <option value="$PROJECT_DIR$/web/do_login2.jsp" />
+        <option value="$PROJECT_DIR$/web/testscope.jsp" />
       </list>
     </option>
   </component>
@@ -671,12 +671,12 @@
       <workItem from="1441542759683" duration="2161000" />
       <workItem from="1442359912023" duration="220000" />
       <workItem from="1445380645332" duration="99000" />
-      <workItem from="1445897183410" duration="1607000" />
+      <workItem from="1445897183410" duration="1859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10374000" />
+    <option name="totallyTimeSpent" value="10626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -920,18 +920,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
+    <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.944445">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state vertical-scroll-proportion="-6.9259257">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/do_login2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/testscope.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.673716">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.70394737">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
           <folding />
         </state>
       </provider>
