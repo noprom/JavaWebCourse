@@ -12,7 +12,8 @@
 </head>
 <body>
   <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>--%>
-  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="session"/>
+  <%--<jsp:useBean id="myUser" class="com.jsp.app.User" scope="session"/>--%>
+  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="request"/>
   <h1>setProperty元素</h1>
   <%--1.根据表单自动匹配所有的属性--%>
   <%--<jsp:setProperty name="myUser" property="*"/>--%>
@@ -39,6 +40,10 @@
 
   <%--7.测试javabean作用领域的范围--%>
   <br/>
-  <a href="testscope.jsp">测试javabean作用领域的范围</a>
+  <a href="testscope.jsp">测试javabean作用领域的范围</a><br/>
+  <%
+    //服务器内部转发
+    request.getRequestDispatcher("testscope.jsp").forward(request, response);
+  %>
 </body>
 </html>
