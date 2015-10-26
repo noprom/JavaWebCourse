@@ -28,10 +28,12 @@
   <jsp:setProperty name="myUser" property="username"/>
   <jsp:setProperty name="myUser" property="password" param="pass"/>
 
-  用户名:<%=myUser.getUsername()%>
-  密码:<%=myUser.getPassword()%>
+  <%--5.通过传统的表达式来获取--%>
+  <%--用户名:<%=myUser.getUsername()%>--%>
+  <%--密码:<%=myUser.getPassword()%>--%>
 
-
-
+  <%--6.使用getProprety来获取--%>
+  用户名：<jsp:getProperty name="myUser" property="username"/>
+  密码：<jsp:getProperty name="myUser" property="password"/>
 </body>
 </html>
