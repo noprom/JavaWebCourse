@@ -11,7 +11,7 @@
     <title></title>
 </head>
 <body>
-  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="page"/>
+  <jsp:useBean id="myUser" class="com.jsp.app.User" scope="application"/>
   <h1>setProperty元素</h1>
   <%--1.根据表单自动匹配所有的属性--%>
   <%--<jsp:setProperty name="myUser" property="*"/>--%>
@@ -26,8 +26,8 @@
 
   <%--4.通过request对象提交的参数--%>
   <jsp:setProperty name="myUser" property="username"/>
-  <jsp:setProperty name="myUser" property="password" param="pass"/>
-
+  <%--<jsp:setProperty name="myUser" property="password" param="pass"/>--%>
+  <jsp:setProperty name="myUser" property="password"/>
   <%--5.通过传统的表达式来获取--%>
   <%--用户名:<%=myUser.getUsername()%>--%>
   <%--密码:<%=myUser.getPassword()%>--%>
@@ -35,5 +35,8 @@
   <%--6.使用getProprety来获取--%>
   用户名：<jsp:getProperty name="myUser" property="username"/>
   密码：<jsp:getProperty name="myUser" property="password"/>
+
+  <%--7.测试javabean作用领域的范围--%>
+  <a href="testscope.jsp">测试javabean作用领域的范围</a>
 </body>
 </html>
